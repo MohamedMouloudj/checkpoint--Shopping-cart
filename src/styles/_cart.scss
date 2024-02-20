@@ -1,0 +1,37 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 3px solid var(--purpule-color);
+  border-radius: 20px;
+  padding: 1rem;
+
+  h3 {
+    padding: 1.5rem 0 1.5rem 0;
+    position: relative;
+    border-bottom: 1px solid var(--grey-color-light);
+    cursor: pointer;
+  }
+  &__preview {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    overflow-y: auto;
+    height: 43vh;
+    padding: 0.5rem 0.5rem;
+  }
+  &__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    span {
+      font-weight: bold;
+      color: var(--green-color);
+    }
+  }
+}

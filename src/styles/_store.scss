@@ -1,0 +1,38 @@
+.store {
+  border: 3px solid var(--purpule-color);
+  background-color: var(--white-color-dark);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 2rem;
+  h3 {
+    padding: 1.5rem 0 1.5rem 0;
+    position: relative;
+    border-bottom: 1px solid var(--grey-color-light);
+    cursor: pointer;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    overflow-y: auto;
+    height: 43vh;
+    padding: 0.5rem 0.5rem;
+  }
+  &__add-cart {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--green-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      font-size: 3rem;
+      color: var(--green-color);
+    }
+  }
+}

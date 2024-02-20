@@ -1,0 +1,18 @@
+:root {
+  --white-color: #ffffff;
+  --white-color-dark: #fefcfc;
+  --grey-color: #393939;
+  --grey-color-dark: #1e1e1e;
+  --grey-color-light: #c4c4c4;
+  --purpule-color: #565abb;
+  --green-color: #14b9c5;
+
+  --background-color: var(--white-color);
+  --background-alternate-color: var(--purpule-color);
+  --text-color-1: var(--grey-color-dark);
+  --text-color-2: var(--white-color-dark);
+  --text-color-3: var(--grey-color);
+  --text-color-4: var(--grey-color-light);
+  --text-size: 2rem;
+  --button-color: var(--green-color);
+}

@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+  font-family: Tahoma, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: var(--text-size);
+  line-height: 1.6;
+  color: var(--text-color-1);
+  background-color: var(--background-color);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
